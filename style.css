@@ -29,6 +29,7 @@ body {
 h1 {
   font-weight: 100;
   margin-bottom: 4px;
+  padding-top: 24px;
 }
 
 h2 {
@@ -46,9 +47,17 @@ header nav {
   line-height: 1.45;
 }
 
+header a {
+ margin-right: 8px;
+}
+
 article {
-  border-bottom: 1px solid #adb5bd;
   margin-bottom: 48px;
+}
+
+.article-border {
+  border-bottom: 1px solid #adb5bd;
+  width: 450px;
 }
 
 a:link, a:visited {
@@ -67,7 +76,7 @@ a:hover, a:active {
 
 .read-more {
   font-weight:700;
-  margin: 0 64px 32px 0;
+  margin: 0 128px 32px 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -78,14 +87,30 @@ article h2 {
 }
 
 .img-big {
-  display: inline-block;
-  max-width: 640px;
-  height: 427px;
+  display: inline-block;0
   margin-bottom: 16px;
 }
 
 .p-long {
   width: 48ch;
   line-height: 1.5;
+  margin-bottom: 16px;
 }
 
+footer {
+  padding-bottom: 32px;
+}
+
+footer nav {
+  width: 45ch;
+  line-height: 1.45;
+}
+
+footer a {
+  margin-right: 8px;
+}
+
+.copyright {
+  margin-top: 4px;
+  color: #adb5bd;
+}
