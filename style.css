@@ -1,10 +1,91 @@
+/*
+Color #2baadf for the line on the left and hyperlinks
+Color #cccccc for article dates
+Color #444444 for article text
+Font family Lato (search in Google fonts)
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 100;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #444444;
+  background-color: #fff;
+  font-size: 18px;
 }
 
 .container {
   width: 750px;
   margin: 0 auto;
+  padding-left: 45px;
+  border-left: 5px solid #2baadf;
 }
+
+h1 {
+  font-weight: 100;
+  margin-bottom: 4px;
+}
+
+h2 {
+font-size: 25px;
+line-height: 1.4;
+}
+
+header h2 {
+  margin-bottom: 8px;
+}
+
+header nav {
+  margin-bottom: 32px;
+  width: 45ch;
+  line-height: 1.45;
+}
+
+article {
+  border-bottom: 1px solid #adb5bd;
+  margin-bottom: 48px;
+}
+
+a:link, a:visited {
+  color: #2baadf;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #1c7ed6;
+}
+
+.date {
+  color: #cccccc;
+  margin-bottom: 4px;
+}
+
+.read-more {
+  font-weight:700;
+  margin: 0 64px 32px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+article h2 {
+  width: 30ch;
+  margin-bottom: 12px;
+}
+
+.img-big {
+  display: inline-block;
+  max-width: 640px;
+  height: 427px;
+  margin-bottom: 16px;
+}
+
+.p-long {
+  width: 48ch;
+  line-height: 1.5;
+}
+
