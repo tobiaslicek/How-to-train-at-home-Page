@@ -76,19 +76,19 @@ a:hover, a:active {
 
 .read-more {
   font-weight:700;
-  margin: 0 128px 32px 0;
+  margin: 0 240px 32px 0;
   display: flex;
   justify-content: flex-end;
 }
 
 article h2 {
   width: 30ch;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .img-big {
-  display: inline-block;0
-  margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 24px;
 }
 
 .p-long {
@@ -114,3 +114,51 @@ footer a {
   margin-top: 4px;
   color: #adb5bd;
 }
+
+.flex-section {
+  display: flex;
+  width: 440px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+
+.flex-card {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.064);
+}
+
+.flex-card h3{
+color: #1c7ed6;
+font-weight: 400;
+font-size: 7px;
+text-transform: uppercase;
+margin-bottom: 3px;
+width: 20ch;
+}
+
+.flex-card h4{
+color: #212529;
+font-weight: 600;
+font-size: 8px;
+width: 17ch;
+}
+
+.flex-card img {
+  width: 70px;
+  height: 70px;
+}
+
+.price {
+  font-weight: 400;
+}
+
+.buy-btn {
+  color: #fff;
+  background-color: #1c7ed6;
+  border-radius: 20px;
+  border: none;
+  /* width: 60px; */
+  padding: 2px 8px;
+}
+
